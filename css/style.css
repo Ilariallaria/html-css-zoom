@@ -8,17 +8,44 @@
     display: flex;
 }
 
+.btn{
+    background-color: grey;
+    color: white;
+    margin-right: 6px;
+    border-radius: 5px;
+    padding: 2px 5px;
+
+    /* border-radius: 20px;
+    border-width: 0;
+    padding: 7px 7px; */
+    font-size: 11px;
+}
+
+
 /* img{
     width: 100%;
     display: block;
 } */
-
-header{
-    background-color: lightblue;
-    height: 50px;
+body{
+    position: relative;
 }
 
+header{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+nav{
+    right: 6px;
+    top: 6px;
+    position: absolute;
+}
+
+
 main{
+    padding-top: 60px;
    background-color: #90ee90;
    height: calc( 100vh - 120px );
    overflow-y: auto;
