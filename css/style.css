@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+/* img{
+    width: 100%;
+    display: block;
+} */
+
+header{
+    background-color: lightblue;
+    height: 50px;
+}
+
+main{
+   background-color: #90ee90;
+   height: calc( 100vh - 120px );
+   overflow-y: auto;
+}
+
+
+.card-cont{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 160px;
+    height: 100px;
+    margin: 8px;
+    background-color: burlywood;
+}
+
+footer{
+    background-color: lightyellow;
+    height: 70px;
+}
+
