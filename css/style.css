@@ -91,11 +91,15 @@ ul{
 
 a{
     color: inherit;
+    font-size: 10px;
 }
 
 a:nth-child(2) {
-    color: inherit;
     padding-left: 10px;
+}
+
+.green:first-child{
+    color: green;
 }
 .f-sx{
     width: 10%;
